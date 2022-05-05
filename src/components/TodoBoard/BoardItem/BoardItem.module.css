@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    border: 1px solid rgba(123, 125, 124, 0.33);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.container:hover{
+    cursor: pointer;
+}
+.user{
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user > p {
+    border-radius: 50%;
+    padding: .8rem;
+    color: white;
+}
+.title{
+    padding: 0 10px;
+    flex: 0 0 90%;
+}
